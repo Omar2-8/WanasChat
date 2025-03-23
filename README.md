@@ -128,6 +128,27 @@ To test with multiple users, open additional terminals and run the client with d
 dotnet run -- Ali http://localhost:5000
 ```
 
+## Architecture Notes
+
+### Scalability
+
+- Orleans provides natural horizontal scaling capabilities
+- Redis can be clustered for higher throughput
+- SignalR supports backplane configurations for multi-instance scenarios
+
+### Persistence
+
+- All message history is persisted in Redis
+- User state (login counts, current room) is persisted in Redis
+- Data is automatically loaded when the service starts
+
+### Error Handling
+
+- Connection retry logic in client application
+- Proper exception handling in the API
+- Graceful disconnection handling
+
+  
 ## Troubleshooting
 
 ### Common Issues
