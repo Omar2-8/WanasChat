@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanasChat.Interfaces", "WanasChat.Interfaces\WanasChat.Interfaces.csproj", "{82C1648A-419F-41CA-8532-B76F9A27D437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanasChat.Grains", "WanasChat.Grains\WanasChat.Grains.csproj", "{DEE6B785-6BBA-4602-BB97-637B911B93E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanasChat.API", "WanasChat.API\WanasChat.API.csproj", "{464FBEDD-F3A5-497C-A490-5E8B0880ADD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanasChat.Client", "WanasChat.Client\WanasChat.Client.csproj", "{293B867A-D557-4476-A616-7ECF3CAF7225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C1648A-419F-41CA-8532-B76F9A27D437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C1648A-419F-41CA-8532-B76F9A27D437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C1648A-419F-41CA-8532-B76F9A27D437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C1648A-419F-41CA-8532-B76F9A27D437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE6B785-6BBA-4602-BB97-637B911B93E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE6B785-6BBA-4602-BB97-637B911B93E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE6B785-6BBA-4602-BB97-637B911B93E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE6B785-6BBA-4602-BB97-637B911B93E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464FBEDD-F3A5-497C-A490-5E8B0880ADD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464FBEDD-F3A5-497C-A490-5E8B0880ADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464FBEDD-F3A5-497C-A490-5E8B0880ADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464FBEDD-F3A5-497C-A490-5E8B0880ADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293B867A-D557-4476-A616-7ECF3CAF7225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293B867A-D557-4476-A616-7ECF3CAF7225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293B867A-D557-4476-A616-7ECF3CAF7225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293B867A-D557-4476-A616-7ECF3CAF7225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
